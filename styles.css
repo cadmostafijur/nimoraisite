@@ -544,18 +544,13 @@ button { font: inherit; cursor: pointer; border: 0; background: none; }
   box-shadow: var(--shadow-card);
 }
 .member__photo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: auto;
   aspect-ratio: 4 / 3;
+  object-fit: cover;
   margin-bottom: 22px;
   border-radius: 14px;
-  background: radial-gradient(circle at 30% 20%, #8ecfff 0%, #087dff 45%, #193b64 100%);
-  color: rgba(255, 255, 255, .9);
-  font-family: var(--serif);
-  font-size: 44px;
-  font-weight: 600;
-  letter-spacing: 2px;
+  background: var(--tile);
 }
 .member h3 { font-family: var(--serif); font-weight: 600; font-size: 23px; }
 .member__role { margin-top: 6px; color: var(--muted); font-size: 14px; }
@@ -583,6 +578,9 @@ button { font: inherit; cursor: pointer; border: 0; background: none; }
 }
 .affiliate__copy { max-width: 600px; display: flex; flex-direction: column; align-items: flex-start; gap: 21px; }
 .affiliate__desc { color: var(--muted); font-size: 16px; line-height: 1.7; }
+.overview__note, .affiliate__note { color: var(--muted); font-size: 12px; line-height: 1.6; }
+.affiliate__note { text-align: center; }
+
 .coupon {
   width: 380px;
   flex-shrink: 0;
