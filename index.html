@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIMORAI — Bring your blockchain ideas to life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Mono&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="hero__landscape" aria-hidden="true">
+      <img src="assets/img/blockchain-landscape.jpg" alt="">
+    </div>
+    <div class="hero__fade-top" aria-hidden="true"></div>
+    <div class="hero__fade-bottom" aria-hidden="true"></div>
+
+    <div class="hero__frame">
+      <div class="hero__decor" aria-hidden="true">
+        <img class="coin coin--usdc" src="assets/img/coin-usdc.png" alt="">
+        <div class="float-card"><img src="assets/img/card.png" alt=""></div>
+        <img class="coin coin--dollar" src="assets/img/coin-dollar.png" alt="">
+        <img class="coin coin--center-left" src="assets/img/coin-center-left.png" alt="">
+        <img class="coin coin--lower-right" src="assets/img/coin-lower-right.png" alt="">
+      </div>
+
+      <nav class="nav container">
+        <a href="#" class="brand">
+          <img src="assets/icons/logo-mark.svg" width="28" height="30" alt="">
+          <span>NIMORAI</span>
+        </a>
+        <ul class="nav__links">
+          <li><a href="#products">Products</a></li>
+          <li><a href="#ide">IDE</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <div class="nav__account">
+          <a href="#" class="nav__signin">Sign In</a>
+          <a href="#" class="btn btn--primary">Sign Up <span class="btn__arrow">↗</span></a>
+        </div>
+      </nav>
+
+      <div class="hero__copy">
+        <h1 class="hero__title">Bring your blockchain<br>ideas to life.</h1>
+        <p class="hero__intro">Explore tools for token, NFT and coin projects, and discover a dedicated IDE for blockchain development.</p>
+        <div class="hero__actions">
+          <a href="#products" class="btn btn--primary">Explore Products <span class="btn__arrow">↗</span></a>
+          <a href="#ide" class="btn btn--outline">Discover the IDE <span class="btn__arrow">↗</span></a>
+        </div>
+      </div>
+
+      <div class="project-paths">
+        <a href="#products" class="path-card">
+          <div class="path-card__top">
+            <span class="icon-tile"><img src="assets/icons/hexagon.svg" width="26" height="26" alt=""></span>
+            <span class="path-card__cat">Token</span>
+          </div>
+          <h3 class="path-card__title">Shape your project</h3>
+          <div class="path-card__action"><span>Create</span><span class="path-card__arrow">↗</span></div>
+        </a>
+        <a href="#products" class="path-card">
+          <div class="path-card__top">
+            <span class="icon-tile"><img src="assets/icons/layers.svg" width="26" height="26" alt=""></span>
+            <span class="path-card__cat">NFT</span>
+          </div>
+          <h3 class="path-card__title">Create a collection</h3>
+          <div class="path-card__action"><span>Build</span><span class="path-card__arrow">↗</span></div>
+        </a>
+        <a href="#products" class="path-card">
+          <div class="path-card__top">
+            <span class="icon-tile"><img src="assets/icons/network.svg" width="26" height="26" alt=""></span>
+            <span class="path-card__cat">Coin</span>
+          </div>
+          <h3 class="path-card__title">Plan your network</h3>
+          <div class="path-card__action"><span>Explore</span><span class="path-card__arrow">↗</span></div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ PRODUCT EXPLORER ============ -->
+    <section class="explorer container" id="products">
+      <h2 class="explorer__heading">Start with what you want to create.</h2>
+      <p class="explorer__desc">Explore token, NFT and coin project options in one place.</p>
+
+      <div class="tabs" role="tablist">
+        <button class="tab is-active" role="tab" data-tab="token">Token</button>
+        <button class="tab" role="tab" data-tab="nft">NFT</button>
+        <button class="tab" role="tab" data-tab="coin">Coin</button>
+      </div>
+
+      <div class="overview">
+        <div class="overview__intro">
+          <p class="overline" data-field="category">TOKEN / CREATE</p>
+          <h3 class="overview__title" data-field="title">Shape your token project.</h3>
+          <p class="overview__desc" data-field="desc">Define your token identity and prepare its configuration.</p>
+          <ol class="details">
+            <li><span>01</span><span data-field="d1">Name, symbol and visual identity.</span></li>
+            <li><span>02</span><span data-field="d2">Network and configuration choices.</span></li>
+            <li><span>03</span><span data-field="d3">Review and order preparation.</span></li>
+          </ol>
+          <a href="#" class="btn btn--primary">View project overview <span class="btn__arrow">↗</span></a>
+        </div>
+
+        <div class="brief">
+          <div class="brief__header">
+            <h4>Project brief</h4>
+            <img src="assets/icons/box.svg" width="21" height="21" alt="">
+          </div>
+          <p class="brief__label" data-field="config">TOKEN configuration</p>
+          <div class="brief__identity">
+            <span class="icon-tile icon-tile--lg"><img data-field="icon" src="assets/icons/hexagon-lg.svg" width="36" height="36" alt=""></span>
+            <div>
+              <p class="brief__identity-title">Your project identity</p>
+              <p class="brief__identity-hint">Name · Symbol · Visual identity</p>
+            </div>
+          </div>
+          <div class="brief__field"><span>Identity</span><span>Define your idea</span></div>
+          <div class="brief__field"><span>Configuration</span><span>Outline your choices</span></div>
+          <div class="brief__field"><span>Review</span><span>Prepare your brief</span></div>
+          <p class="brief__note">Conceptual project-planning preview.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLATFORM & WORKFLOW ============ -->
+    <section class="workflow container" id="platform">
+      <div class="split-intro">
+        <div class="split-intro__copy">
+          <h2 class="section-heading">From your idea to a clear project brief.</h2>
+        </div>
+        <p class="split-intro__desc">Choose a project, organise the details and continue in your NIMORAI workspace.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step__top"><img src="assets/icons/shapes.svg" width="28" height="28" alt=""><span>01</span></div>
+          <h3>Choose</h3>
+          <p>Select a token, NFT or coin project.</p>
+        </div>
+        <div class="step">
+          <div class="step__top"><img src="assets/icons/sliders.svg" width="28" height="28" alt=""><span>02</span></div>
+          <h3>Configure</h3>
+          <p>Add the identity and requirements relevant to your project.</p>
+        </div>
+        <div class="step">
+          <div class="step__top"><img src="assets/icons/clipboard-check.svg" width="28" height="28" alt=""><span>03</span></div>
+          <h3>Review</h3>
+          <p>Check the details before continuing to your order.</p>
+        </div>
+      </div>
+
+      <div class="showcase">
+        <div class="showcase__invite">
+          <p class="overline">YOUR NIMORAI WORKSPACE</p>
+          <h3>Give your idea a place to take shape.</h3>
+          <a href="#" class="btn btn--primary">Explore the Workspace <span class="btn__arrow">↗</span></a>
+        </div>
+        <div class="workspace">
+          <div class="workspace__header">
+            <span>Illustrative workspace preview</span>
+            <span class="workspace__badge">CONCEPT</span>
+          </div>
+          <div class="workspace__body">
+            <div class="workspace__types">
+              <p class="workspace__types-title">Project type</p>
+              <div class="type-option is-active"><img src="assets/icons/hexagon-sm.svg" width="15" height="15" alt="">Token</div>
+              <div class="type-option"><img src="assets/icons/layers-sm.svg" width="15" height="15" alt="">NFT</div>
+              <div class="type-option"><img src="assets/icons/network-sm.svg" width="15" height="15" alt="">Coin</div>
+            </div>
+            <div class="workspace__config">
+              <h4>Project configuration</h4>
+              <div class="config-field">
+                <p class="config-field__label">Identity</p>
+                <p class="config-field__hint">Name, symbol and visual direction</p>
+              </div>
+              <div class="config-field">
+                <p class="config-field__label">Requirements</p>
+                <p class="config-field__hint">Project details and configuration choices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="workflow__note">Decorative interface for project-planning context, not live account activity.</p>
+    </section>
+
+    <!-- ============ IDE ACCESS ============ -->
+    <section class="ide" id="ide">
+      <div class="ide__glow" aria-hidden="true"></div>
+      <div class="container ide__inner">
+        <div class="split-intro">
+          <div class="split-intro__copy split-intro__copy--wide">
+            <h2 class="section-heading">A dedicated workspace for blockchain development.</h2>
+          </div>
+          <p class="split-intro__desc split-intro__desc--narrow">Discover the NIMORAI IDE and purchase access through your account.</p>
+        </div>
+
+        <div class="ide__grid">
+          <div class="editor">
+            <div class="editor__chrome">
+              <div class="editor__dots"><i></i><i></i><i></i></div>
+              <span class="editor__label">NIMORAI IDE · concept</span>
+              <img src="assets/icons/code.svg" width="17" height="17" alt="">
+            </div>
+            <div class="editor__main">
+              <div class="editor__rail">
+                <img src="assets/icons/files.svg" width="20" height="20" alt="">
+                <img src="assets/icons/search.svg" width="20" height="20" alt="">
+                <img src="assets/icons/settings.svg" width="20" height="20" alt="">
+              </div>
+              <div class="editor__code-area">
+                <div class="editor__tab">
+                  <img src="assets/icons/file-code.svg" width="14" height="14" alt="">
+                  <span>project.config</span>
+                </div>
+                <div class="code">
+                  <div><span>1</span><code class="c">// A place for your next idea</code></div>
+                  <div><span>2</span><code class="c">// Illustrative configuration only</code></div>
+                  <div><span>3</span><code> </code></div>
+                  <div><span>4</span><code class="k">project {</code></div>
+                  <div><span>5</span><code>  name: "Your project"</code></div>
+                  <div><span>6</span><code>  type: "token"</code></div>
+                  <div><span>7</span><code class="k">  identity: {</code></div>
+                  <div><span>8</span><code>    symbol: "YOUR"</code></div>
+                  <div><span>9</span><code>    visual: "Your direction"</code></div>
+                  <div><span>10</span><code class="k">  }</code></div>
+                  <div><span>11</span><code>  requirements: []</code></div>
+                  <div><span>12</span><code class="k">}</code></div>
+                </div>
+              </div>
+            </div>
+            <div class="editor__note">Decorative IDE concept, not a functioning development environment.</div>
+          </div>
+
+          <div class="license">
+            <p class="overline overline--light">NIMORAI IDE LICENSE</p>
+            <p class="license__price">$700</p>
+            <p class="license__type">USD · One-time license purchase</p>
+            <hr class="license__divider">
+            <p class="license__title">A dedicated IDE for blockchain development.</p>
+            <p class="license__desc">Access instructions delivered by email after confirmed payment and successful provisioning.</p>
+            <a href="#" class="btn btn--light">View Purchase Details <span class="btn__arrow">↗</span></a>
+            <a href="#" class="license__link">How Access Works <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="journey">
+          <div class="journey__step">
+            <span class="journey__num">01</span>
+            <div><p class="journey__title">Purchase through your account</p><p class="journey__detail">View purchase details for IDE access.</p></div>
+          </div>
+          <div class="journey__step">
+            <span class="journey__num">02</span>
+            <div><p class="journey__title">Payment &amp; provisioning</p><p class="journey__detail">Confirmed payment and successful provisioning.</p></div>
+          </div>
+          <div class="journey__step">
+            <span class="journey__num">03</span>
+            <div><p class="journey__title">Check your email</p><p class="journey__detail">Access instructions are delivered by email.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NIMORAI CHAIN ============ -->
+    <section class="chain container" id="chain">
+      <div class="chain__card">
+        <div class="chain__copy">
+          <h2 class="section-heading">Part of the NIMORAI ecosystem.</h2>
+          <p class="chain__desc">Explore how NIMORAI Chain fits into the wider platform vision.</p>
+        </div>
+        <div class="chain__side">
+          <div class="notice">
+            <span class="icon-tile"><img src="assets/icons/network.svg" width="26" height="26" alt=""></span>
+            <p>Verified technical information will be added when available.</p>
+          </div>
+          <a href="#about" class="btn btn--outline">About NIMORAI <span class="btn__arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <div class="about__copy">
+          <h2 class="section-heading">A clearer starting point for blockchain ideas.</h2>
+          <p class="about__desc">NIMORAI brings project preparation and development access into one connected experience. Explore token, NFT and coin project options, organise your requirements and discover a dedicated IDE for blockchain development.</p>
+        </div>
+        <ol class="pillars">
+          <li><span>01</span>Clear project preparation</li>
+          <li><span>02</span>Connected development tools</li>
+          <li><span>03</span>Thoughtful user experience</li>
+        </ol>
+      </div>
+
+      <div class="container team">
+        <div class="team__intro">
+          <p class="overline">CONCEPT TEAM · FICTIONAL PROFILES</p>
+          <h2 class="team__heading">People behind the design direction.</h2>
+          <p class="team__sub">Illustrative profiles for design review.</p>
+        </div>
+        <div class="team__grid">
+          <article class="member">
+            <div class="member__photo" role="img" aria-label="AI-generated fictional concept portrait of Arian Vale">AV</div>
+            <h3>Arian Vale</h3>
+            <p class="member__role">Product &amp; Vision</p>
+            <span class="member__badge">Fictional concept profile</span>
+          </article>
+          <article class="member">
+            <div class="member__photo" role="img" aria-label="AI-generated fictional concept portrait of Maya Sen">MS</div>
+            <h3>Maya Sen</h3>
+            <p class="member__role">Design &amp; Experience</p>
+            <span class="member__badge">Fictional concept profile</span>
+          </article>
+          <article class="member">
+            <div class="member__photo" role="img" aria-label="AI-generated fictional concept portrait of Elias Noor">EN</div>
+            <h3>Elias Noor</h3>
+            <p class="member__role">Engineering</p>
+            <span class="member__badge">Fictional concept profile</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AFFILIATE ============ -->
+    <section class="affiliate container" id="affiliate">
+      <div class="affiliate__panel">
+        <div class="affiliate__copy">
+          <h2 class="section-heading">Create content. Share your code.</h2>
+          <p class="affiliate__desc">Introduce NIMORAI to your audience with a company-assigned coupon code and guidance for creating YouTube content.</p>
+          <a href="#affiliate-steps" class="btn btn--primary">How the Programme Works <span class="btn__arrow">↗</span></a>
+        </div>
+        <div class="coupon">
+          <p class="overline">ASSIGNED CODE</p>
+          <p class="coupon__code">NIMORAI</p>
+          <p class="coupon__meta">Programme attribution</p>
+        </div>
+      </div>
+
+      <div class="affiliate__steps" id="affiliate-steps">
+        <div class="a-step">
+          <span class="a-step__num">01</span>
+          <h3>Get your code</h3>
+          <p>Receive your assigned coupon code through the affiliate programme.</p>
+        </div>
+        <div class="a-step">
+          <span class="a-step__num">02</span>
+          <h3>Create and share</h3>
+          <p>Use the available guidance to introduce NIMORAI in your content.</p>
+        </div>
+        <div class="a-step">
+          <span class="a-step__num">03</span>
+          <h3>Customer places an order</h3>
+          <p>The customer applies your code during checkout.</p>
+        </div>
+        <div class="a-step">
+          <span class="a-step__num">04</span>
+          <h3>Eligible commission is recorded</h3>
+          <p>Commission is calculated for qualifying paid orders under the programme's configured rules.</p>
+        </div>
+      </div>
+
+      <div class="support">
+        <span class="icon-tile"><img src="assets/icons/clipboard-check.svg" width="28" height="28" alt=""></span>
+        <div>
+          <h3>Content support</h3>
+          <p>Get guidance for planning YouTube videos and presenting your coupon code clearly.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq container" id="faq">
+      <div class="faq__intro">
+        <h2 class="section-heading">A few things to know.</h2>
+        <p class="faq__sub">Practical answers about projects, IDE access and the programme.</p>
+      </div>
+      <div class="faq__list">
+        <details open>
+          <summary>What can I explore with NIMORAI?</summary>
+          <p>Token, NFT and coin project options, project preparation tools and access to a dedicated blockchain development IDE.</p>
+        </details>
+        <details>
+          <summary>Do I need to know every technical detail before starting?</summary>
+          <p>No. Start with your idea, then organise the identity, configuration and requirements step by step as your project brief takes shape.</p>
+        </details>
+        <details>
+          <summary>How much does IDE access cost?</summary>
+          <p>The NIMORAI IDE license is $700 USD as a one-time license purchase.</p>
+        </details>
+        <details>
+          <summary>How do I receive IDE access?</summary>
+          <p>Access instructions are delivered by email after confirmed payment and successful provisioning.</p>
+        </details>
+        <details>
+          <summary>How does the affiliate programme work?</summary>
+          <p>You receive a company-assigned coupon code to share in your content. When a customer applies your code during checkout, eligible commission is recorded for qualifying paid orders under the programme's configured rules.</p>
+        </details>
+        <details>
+          <summary>Where can I find NIMORAI Chain technical information?</summary>
+          <p>Verified technical information will be added when available.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta">
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="container cta__inner">
+        <p class="overline overline--light">CREATE · BUILD · EXPLORE</p>
+        <h2 class="cta__heading">Your next idea starts here.</h2>
+        <p class="cta__desc">Explore your project options or discover the NIMORAI IDE.</p>
+        <div class="hero__actions">
+          <a href="#products" class="btn btn--light">Explore Products <span class="btn__arrow">↗</span></a>
+          <a href="#ide" class="btn btn--outline-light">Discover the IDE <span class="btn__arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__nav">
+        <div class="footer__brand">
+          <a href="#" class="brand brand--light">
+            <img src="assets/icons/logo-mark-light.svg" width="28" height="30" alt="">
+            <span>NIMORAI</span>
+          </a>
+          <p>Project preparation and development tools for blockchain ideas.</p>
+        </div>
+        <div class="footer__links">
+          <ul>
+            <li class="footer__group">EXPLORE</li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#platform">Platform</a></li>
+            <li><a href="#ide">IDE</a></li>
+            <li><a href="#chain">Chain</a></li>
+          </ul>
+          <ul>
+            <li class="footer__group">NIMORAI</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#affiliate">Affiliate</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__note">
+        <span>© 2026 NIMORAI</span>
+        <a href="#top" class="footer__top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
